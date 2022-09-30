@@ -10,7 +10,7 @@ from upload_client import upload
 from download import download
 import urllib.parse
          
-app = Client('@XenoTks',api_id=7739789,api_hash='0dac59387c482f674410f79636a09f1f',bot_token='5497068174:AAGqBdvFogx-HrjgQtlY2aRs_-_H97DfQgc')
+app = Client('n',api_id=7739789,api_hash='0dac59387c482f674410f79636a09f1f',bot_token='5497068174:AAGqBdvFogx-HrjgQtlY2aRs_-_H97DfQgc')
 @app.on_message(filters.private & filters.text)
 async def home(client, message):
 	text = message.text
